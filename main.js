@@ -2,12 +2,12 @@ console.log ("Java Connected?!")
 
 //from Thinkific - What can JS do with the DOM
 // 1. Set variables
-const two = document.getElementById("div2");
+const clr = document.getElementById("clear");
 // const output = document.getElementById("output");
 // const seven = document.getElementById("seven");
 // const eight = document.getElementById("eight");
 // const nine = document.getElementById("nine");
-// const divide = document.getElementById("divide");
+const divi = document.getElementById("dOperator");
 // const four = document.getElementById("four");
 // const five = document.getElementById("five");
 // const six = document.getElementById("six");
@@ -23,23 +23,36 @@ const two = document.getElementById("div2");
 
 
 // 2. Set event listener
-two.addEventListener("mouseover", changeRed);
-two.addEventListener("mouseout", resetStyle);
+clr.addEventListener("mouseover", changeGreen);
+clr.addEventListener("mouseout", resetStyle);
 
-// 3. Event (? my expanation) 
-// Change background color to red
-function changeRed() {
-    two.style.backgroundColor = "red";
+// 2a. testing for divide text color change
+divi.addEventListener("mouseover", changeWhite);
+divi.addEventListener("mouseout", resetStyle);
+
+
+// 3. Event (? my explanation) 
+// Change background color to green
+function changeGreen() {
+    clr.style.backgroundColor = "green";
   }
-  
-  // 3. Event (? my expanation)
+
+  // 3. Event (? my explanation)
   // Reset background color
   function resetStyle(e) {
     e.target.style.backgroundColor = "";
     e.target.style.color = "";
   }
 
+//3a. Divide aka divi color change from black to white
+function changeWhite() {
+divi.style.color = "white";
+}
 
+// 3a. don't seem to need this.. redundant perhaps
+// divide resetStyle(e) {
+//   e.target.style.fontcolor = "";
+//   e.target.style.color = "";
 
 
 

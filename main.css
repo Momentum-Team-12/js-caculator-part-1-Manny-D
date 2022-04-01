@@ -1,3 +1,7 @@
+body {
+  color: white;
+}
+
 .square {
     line-height: 150px;
     text-align: center;
@@ -6,7 +10,6 @@
     border: solid 1px whitesmoke;
     height: 150px;
     width: 150px;
-    color: white
   }
   
 
@@ -28,8 +31,9 @@
     ;
   }
 
-  #operator {
-      color: black; !important
+  #dOperator ,#mOperator , #sOperator , #pOperator {
+      color: black;
+      background-color: rgb(190, 230, 59);
   }
 
 
