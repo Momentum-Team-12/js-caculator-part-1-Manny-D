@@ -2,7 +2,7 @@ console.log ("Java Connected?!")
 
 //from Thinkific - What can JS do with the DOM
 // 1. Set variables
-const testt = document.getElementById("clr");
+const two = document.getElementById("div2");
 // const output = document.getElementById("output");
 // const seven = document.getElementById("seven");
 // const eight = document.getElementById("eight");
@@ -23,13 +23,13 @@ const testt = document.getElementById("clr");
 
 
 // 2. Set event listener
-testt.addEventListener("mouseover", changeRed);
-testt.addEventListener("mouseout", resetStyle);
+two.addEventListener("mouseover", changeRed);
+two.addEventListener("mouseout", resetStyle);
 
 // 3. Event (? my expanation) 
 // Change background color to red
 function changeRed() {
-    testt.style.backgroundColor = "red";
+    two.style.backgroundColor = "red";
   }
   
   // 3. Event (? my expanation)
@@ -38,17 +38,6 @@ function changeRed() {
     e.target.style.backgroundColor = "";
     e.target.style.color = "";
   }
-
-
-
-
-// test from thinkific / codepen
-
-testt.addEventListener("mouseover", changeRed);
-testt.addEventListener("mouseout", resetStyle);
-
-
-
 
 
 
