@@ -1,0 +1,50 @@
+.square {
+    line-height: 150px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(127, 192, 5);
+    border: solid 1px whitesmoke;
+    height: 150px;
+    width: 150px;
+    color: white
+  }
+  
+
+#boxes {
+    /* max-width: 800px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+
+  
+  #boxes {
+    /* display: flex; */
+  }
+  .row {
+    display: flex;
+    align-items: left
+    ;
+  }
+
+  #operator {
+      color: black; !important
+  }
+
+
+
+
+  /* from class demo - looks to have no bearing on current */
+    /* .teal {
+    background-color: teal; */
+}
+  
+/* .wide {
+  width: 400px; */
+
+}
+
+/* .purple-border {
+    border: 5px solid purple; */
+/* } */
