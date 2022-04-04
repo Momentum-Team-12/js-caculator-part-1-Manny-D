@@ -33,6 +33,8 @@ body {
 
 #output {
   width: 454px;
+  position: relative;
+  overflow-x: hidden;
 }
 
 

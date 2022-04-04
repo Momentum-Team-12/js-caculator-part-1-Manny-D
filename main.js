@@ -20,4 +20,20 @@ for (let square of squares){
 })
 }
 
-// event.target.innerText = "click" -> this is my comment: for later
+
+let display = document.querySelector('#output')
+let numbers = document.querySelectorAll(".square")
+// let empt = document.querySelector('#clear')
+
+for (let number of numbers) {
+  number.addEventListener("click", (event) => {
+    console.log(event.target)
+    if (event.target.id === "clear") {
+      console.log("Clear clicked")
+      display.innerText = "0"
+      console.log('did this empty')
+    }
+    display.innerText += number.innerText
+    
+  })
+}

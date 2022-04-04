@@ -81,7 +81,19 @@ function resetStyle(e) {
 
 
 
-
 //numbers won't change
 //operators C and = will change to a lighter green
 //other operators invert color - eg black to white
+
+
+// event.target.innerText = "click" -> this is my comment: for later
+// from codepen -> text in squares change to clicked (li 30)
+//let squares = document.querySelectorAll('.square')
+//   for (let square of squares){
+//   square.addEventListener('click', function (event){
+//     console.log(event)
+//     console.log(event.target.innerText)
+//     event.target.innerText = "Click'eth"
+//       //event.target.remove()
+//     })
+//   } 
