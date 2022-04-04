@@ -14,22 +14,17 @@ body {
   
 
 #boxes {
-    /* max-width: 800px; */
+    max-width: 800px;
     display: flex;
     flex-wrap: wrap;
     /* justify-content: center; */
 }
 
+.row {
+  display: flex;
+  /* align-items: center; */
+}
 
-  
-  #boxes {
-    /* display: flex; */
-  }
-  .row {
-    display: flex;
-    align-items: left
-    ;
-  }
 
   #dOperator ,#mOperator , #sOperator , #pOperator {
       color: black;
